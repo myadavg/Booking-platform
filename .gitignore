@@ -1,0 +1,114 @@
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# IDE and Editor
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Project specific
+*.sqlite
+*.db
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docker
+.dockerignore
+
+# User config files (home directory)
+.anaconda/
+.aws/
+.bash_history
+.conda/
+.copilot/
+.gitconfig
+.idlerc/
+.ipython/
+.jupyter/
+.lesshst
+.mysqlsh-gui/
+.node_repl_history
+.npmrc
+.ssh/
+.vim/
+.viminfo
+.vscode-shared/
+AppData/
+Contacts/
+Db/
+Dockerfile.txt
+Downloads/
+Favorites/
+Links/
+Miniconda3-latest-Windows-x86_64.exe
+Music/
+NTUSER.DAT*
+Saved Games/
+Searches/
+Videos/
+ansiblebasic.yaml
+ec2.tf
+instance.tf
+miniconda3/
+ntuser.dat.LOG*
+ntuser.ini
+projects/
+test/
+vscode-remote-wsl/
+yaml.txt
+Ram.sh
