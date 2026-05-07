@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "myadavg/booking-app:v3"
+        IMAGE_NAME = "myadavg/booking-app:${BUILD_NUMBER}"
     }
 
     stages {
@@ -43,7 +43,7 @@ pipeline {
             steps {
                 sh '''
                 kubectl set image deployment/booking-app \
-                booking-app=myadavg/booking-app:v3
+                booking-app=myadavg/booking-app:${BUILD_NUMBER}
                 '''
             }
         }
