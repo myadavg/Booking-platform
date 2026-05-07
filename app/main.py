@@ -13,8 +13,7 @@ models.Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 def home():
-    return {"message": "Booking API running - Version 3"}
-
+    return {"message": "Booking API running - Version"}
 
 @app.post("/bookings")
 def add_booking(booking: BookingCreate, db: Session = Depends(get_db)):
