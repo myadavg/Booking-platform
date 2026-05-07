@@ -9,7 +9,8 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/myadavg/Booking-platform.git'
+                git branch: 'main',
+                url: 'https://github.com/myadavg/Booking-platform.git'
             }
         }
 
