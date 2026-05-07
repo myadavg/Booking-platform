@@ -13,7 +13,7 @@ models.Base.metadata.create_all(bind=engine)
 
 @app.get("/")
 def home():
-    return {"message": "Booking API running"}
+    return {"message": "Booking API running - Version 2"}
 
 
 @app.post("/bookings")

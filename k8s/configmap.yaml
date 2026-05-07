@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: booking-config
+
+data:
+  APP_ENV: "dev"
+  APP_NAME: "Booking Platform"
+  LOG_LEVEL: "INFO"
