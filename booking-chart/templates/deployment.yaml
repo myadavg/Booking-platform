@@ -19,7 +19,8 @@ spec:
     spec:
       containers:
         - name: booking-app
-          image: myadavg/booking-app:v2
+
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
 
           ports:
             - containerPort: 8000

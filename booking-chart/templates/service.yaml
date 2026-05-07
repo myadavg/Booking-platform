@@ -5,7 +5,7 @@ metadata:
   name: booking-service
 
 spec:
-  type: NodePort
+  type: LoadBalancer
 
   selector:
     app: booking-app
@@ -13,4 +13,3 @@ spec:
   ports:
     - port: 8000
       targetPort: 8000
-      nodePort: 30080
